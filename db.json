@@ -1,0 +1,106 @@
+[
+{
+  "model": "food.food",
+  "pk": 1,
+  "fields": {
+    "created": "2024-08-01T12:33:23.374Z",
+    "modified": "2024-08-01T15:49:47.210Z",
+    "category": 1,
+    "is_vegan": false,
+    "is_special": false,
+    "code": 1,
+    "internal_code": 100,
+    "name_ru": "Чай",
+    "description_ru": "Чай 100 гр",
+    "description_en": null,
+    "description_ch": null,
+    "cost": "123.00",
+    "is_publish": false,
+    "additional": []
+  }
+},
+{
+  "model": "food.food",
+  "pk": 2,
+  "fields": {
+    "created": "2024-08-01T12:34:58.277Z",
+    "modified": "2024-08-01T15:49:41.578Z",
+    "category": 1,
+    "is_vegan": false,
+    "is_special": false,
+    "code": 2,
+    "internal_code": 200,
+    "name_ru": "Кола",
+    "description_ru": "Кола",
+    "description_en": null,
+    "description_ch": null,
+    "cost": "123.00",
+    "is_publish": false,
+    "additional": []
+  }
+},
+{
+  "model": "food.food",
+  "pk": 3,
+  "fields": {
+    "created": "2024-08-01T12:35:48.332Z",
+    "modified": "2024-08-01T19:26:56.960Z",
+    "category": 1,
+    "is_vegan": false,
+    "is_special": false,
+    "code": 3,
+    "internal_code": 300,
+    "name_ru": "Спрайт",
+    "description_ru": "Спрайт",
+    "description_en": null,
+    "description_ch": null,
+    "cost": "123.00",
+    "is_publish": true,
+    "additional": []
+  }
+},
+{
+  "model": "food.food",
+  "pk": 4,
+  "fields": {
+    "created": "2024-08-01T12:36:24.263Z",
+    "modified": "2024-08-01T19:26:51.127Z",
+    "category": 1,
+    "is_vegan": false,
+    "is_special": false,
+    "code": 4,
+    "internal_code": 400,
+    "name_ru": "Байкал",
+    "description_ru": "Байкал",
+    "description_en": null,
+    "description_ch": null,
+    "cost": "123.00",
+    "is_publish": true,
+    "additional": []
+  }
+},
+{
+  "model": "food.foodcategory",
+  "pk": 1,
+  "fields": {
+    "created": "2024-08-01T12:29:15.169Z",
+    "modified": "2024-08-01T12:29:15.169Z",
+    "name_ru": "Напитки",
+    "name_en": null,
+    "name_ch": null,
+    "order_id": 10
+  }
+},
+{
+  "model": "food.foodcategory",
+  "pk": 2,
+  "fields": {
+    "created": "2024-08-01T12:29:44.884Z",
+    "modified": "2024-08-01T12:29:44.884Z",
+    "name_ru": "Выпечка",
+    "name_en": null,
+    "name_ch": null,
+    "order_id": 20
+  }
+}
+]
